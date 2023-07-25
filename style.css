@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background: black;
+    color: aliceblue;
+    padding: 0 2rem;
+}
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+}
+.toggle {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 550px
+}
+.menu li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+
+.T {
+    font-size: 3rem;
+}
+.F {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.btn {
+    border: 0;
+    background: pink;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+/*.btn.btn-secondary {
+    background: transparent;
+    border: 2px solid pink;
+}*/
+/*section Hero*/
+.hero {
+    
+    background: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav img {
+    height: 50px;
+}
+.span{
+    height: 600px;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    width:600px;
+    height: 550px;
+    margin-right: 60px;
+    padding-top: 100px;
+    
+}
+.steps {
+  margin-top: 50px;  
+}
+.vert{
+    background-color: orangered;
+    border: 0;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    
+}
+.Z {
+    text-align: center;
+    margin-top: 20px;
+}
+.Z h1 {
+    font-size: 3rem; 
+}
+.c{
+    background-color: aliceblue;
+}
+.blan{
+    background-color:aliceblue;
+    border: 0;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+.rose{
+    background-color: darkgrey;
+    border: 0;
+    font-size: 2rem;
+}
+.D{
+    background-color: aliceblue;
+    display: flex;
+}
+img.D{
+    width: 100px;
+    height: 60px;
+    justify-content: space-between;
+}
+.G{
+    background-color: aliceblue;
+    display: flex;
+    justify-content:first baseline;
+}
+img.G{
+    width: 200px;
+    height: 60px;
+}
+.violet{
+    background-color:darkgrey;
+}
+.M{
+    background-color: aliceblue;
+    display: flex;
+}
+img.M{
+    width: 350px;
+    height: 50px;
+}
+/* .A{
+    position: relative;
+    background-color:bisque
+}
+ 
+ 
+ .card{
+    display: flex;   
+}
+.span{
+    display: flex;
+}
+.steps{
+    background-color: chocolate;
+} */
+@media all and (max-width: 991px) {
+    header {
+        background: transparent;
+    }
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+    .logo {
+        position: relative;
+        z-index: 20;
+    }
+    .ouvrir {
+        display: block;
+    }
+    
+    .fermer {
+        display: none;
+    }
+    
+    .open .ouvrir {
+        display: none;
+    }
+    
+    .open .fermer {
+        display: block;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+    .menu li a {
+        font-size: 2rem;
+    }
+    .btn {
+        font-size: 2rem;
+    }
+    
+    .open .menu {
+        transform: translateX(0);
+}
+}
+/*header{
+    background-color:blanchedalmond;
+    padding: 0.1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+nav button{
+    background-color: orangered;
+}*/
