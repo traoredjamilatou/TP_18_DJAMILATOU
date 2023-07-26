@@ -1,7 +1,16 @@
-* {
+/*section 1 du Hero*/
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.hero {
+    
+    background: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 html {
     font-size: 16px;
@@ -10,12 +19,13 @@ body {
     font-family: sans-serif;
 }
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 8vh;
     top: 0;
     left: 0;
-    background: black;
+   background: black; 
+  /* background:blanchedalmond;*/
     color: aliceblue;
     padding: 0 2rem;
 }
@@ -25,6 +35,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav img {
+    height: 2.2rem;
 }
 .logo {
     font-size: 2rem;
@@ -42,12 +55,24 @@ nav {
 .menu li a {
     color: aliceblue;
     text-decoration: none;
-
 }
-
-
+.menu button {
+    background-color: orangered;
+}
+.span{
+    height: 600px;
+    background-color:blanchedalmond; 
+    justify-content: space-between;
+   display: flex;
+   padding-left: 90px;
+}
+.span h1{
+    /* margin-top: 40px; */
+    
+}
 .T {
     font-size: 3rem;
+    margin-top: 70px;
 }
 .F {
     font-size: 20px;
@@ -60,56 +85,17 @@ nav {
     padding: 0.5rem 1rem;
     border-radius: 20px;
 }
-/*.btn.btn-secondary {
-    background: transparent;
-    border: 2px solid pink;
-}*/
-/*section Hero*/
-.hero {
-    
-    background: url(img/hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-nav img {
-    height: 50px;
-}
-.span{
-    height: 600px;
-    background-color:blanchedalmond;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-img{
-    width:600px;
-    height: 550px;
-    margin-right: 60px;
-    padding-top: 100px;
-    
-}
+/*section span*/
 .steps {
-  margin-top: 50px;  
-}
-.vert{
+    margin-top: 70px;  
+  }
+  .vert{
     background-color: orangered;
     border: 0;
     font-size: 2rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     
-}
-.Z {
-    text-align: center;
-    margin-top: 20px;
-}
-.Z h1 {
-    font-size: 3rem; 
-}
-.c{
-    background-color: aliceblue;
 }
 .blan{
     background-color:aliceblue;
@@ -118,55 +104,161 @@ img{
     padding: 0.5rem 1rem;
     border-radius: 20px;
 }
-.rose{
-    background-color: darkgrey;
-    border: 0;
-    font-size: 2rem;
+.fa img{
+    width:600px;
+    height: 550px;
+    margin-right: 60px;
+    padding-top: 100px;
 }
-.D{
-    background-color: aliceblue;
+.fan {
     display: flex;
+    margin-top: 70px;
+    padding-left: 290px;
 }
-img.D{
-    width: 100px;
-    height: 60px;
+.fan span {
+    color: chocolate;
+}
+.B {
+    display: flex;
+    height: 50px;
+    margin-top: 50px;
     justify-content: space-between;
 }
+.Z {
+    text-align: center;
+    margin-top: 20px;
+}
+.Z h3 {
+    margin-top: 40px;
+}
+.Z h1 {
+    font-size: 3rem; 
+}
+h5 {
+    margin-top: 150px;
+    padding-left: 290px;
+    color: chocolate;
+}
+.c{
+    background-color: aliceblue;
+   
+}
+.C .Z {
+    font-size: 3rem;
+}
+/* contentu 1 */
+.rose{
+    color: darkgrey;
+    /* border: 0; */
+    font-size: 4rem;
+     margin-top: 200px; 
+    /* padding-left: 290px;  */
+}
+    .djami{
+        display: flex;
+        justify-content: space-around;
+    }
+.fant {
+     /* padding-left: 290px; */
+    margin-top: 70px;  
+    font-size: 40px;
+}
+.bleur {
+    margin-top: 40px;
+    /* padding-left: 290px; */
+    font-size: 1.25rem;
+}
+.D{
+    padding-top: 50px;
+    
+    /* background-color: aliceblue;
+    display: flex; */
+}
+.fari{
+    width: 300px;
+    height: 500px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+/* contenu 2 */
 .G{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
-    justify-content:first baseline;
+    justify-content: space-around;
 }
-img.G{
-    width: 200px;
-    height: 60px;
-}
+
 .violet{
-    background-color:darkgrey;
+    color:darkgrey;
+    font-size: 4rem;
+    margin-top: 200px; 
 }
-.M{
-    background-color: aliceblue;
+.farida {
+   margin-top: 70px;  
+   font-size: 40px;
+}
+.noir {
+    margin-top: 40px;
+    font-size: 1.50rem;
+}
+/* contenu 3 */
+.faridat{
     display: flex;
+    justify-content: space-around;
 }
-img.M{
-    width: 350px;
-    height: 50px;
+.marron{
+    color: darkgrey;
+    /* border: 0; */
+    font-size: 4rem;
+     margin-top: 200px; 
+    /* padding-left: 290px;  */
 }
-/* .A{
-    position: relative;
-    background-color:bisque
+.faridatou {
+    /* padding-left: 290px; */
+   margin-top: 70px;  
+   font-size: 40px;
 }
- 
- 
- .card{
-    display: flex;   
+.M {
+    margin-top: 40px;
+    /* padding-left: 290px; */
+    font-size: 1.25rem;
 }
-.span{
+.chadi {
+    padding-left: 700px;
+    font-size: 1.50rem;
+    color: chocolate;
+    margin-top: 200px;
+
+}
+.chadia {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+
+.fati img{
+    width: 450px;
+}
+.fati {
     display: flex;
+    /* width: 250px;
+    height: 250px; */
+    /* padding-left: 200px;   */
+    margin-top: 70px; 
+    justify-content: space-between;
+    padding-left: 100px;
+    }
+.ba button{
+    background-color: limegreen;
+    color: black;
+   
 }
-.steps{
-    background-color: chocolate;
-} */
+h4{
+    margin-top: 20px; 
+    padding-left: 40px;
+
+}
+
+/*responsive*/
 @media all and (max-width: 991px) {
     header {
         background: transparent;
