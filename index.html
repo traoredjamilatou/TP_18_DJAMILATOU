@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>omni-food</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -137,17 +142,188 @@
   </section>
   <h6 class="chadi">MEALS</h6>
   <h1 class="chadia">Omnifood AI chooses from 5,000+ recipes</h1>
-  <section class="fati">
-  <div><img src="meal-1.jpg" alt=""></div>
-  <div> <img src="meal-2.jpg" alt=""></div>
- <div> <img src="meal-1.jpg" alt=""></div>
-</section>
- <div class="ba">
-  <li><button class="btn">VEGETARIAN</button></li>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-50">
+        <img class="W" src="meal-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="tag tag--vegetarian">VEGETARIAN</span>
+          <p class="meal-titre">Japanese Gyozas</p>
+        </div>
+        <div class="fas">
+          <i class="fas fa-burn fa-2x" style="color: #e1890e;"></i>
+              <div class="ta">
+            <span>650</span>
+            <p>calories</p>
+        </div>
+      </div>
+        <div class="ive">
+          <i class="fas fa-utensils fa-2x" style="color: #f29e0d;"></i>
+        <div class="I">
+        <p>NutriScore @</p>
+        <span>74</span>
+        </div>
+      </div>
+      <div class="jup">
+        <i class="fas fa-star fa-2x" style="color: #e68c0f;"></i>
+        <div class="jupe">
+        <span>4.9</span>
+        <p>rating (537)</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img class="W" src="meal-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="tag tag--vegan">VEGAN</span>
+          <span class="tag tag--paleo">PALEO</span>
+          <p class="meal-titre">Avocado Salad</p>
+        </div>
+        <div class="fas">
+          <i class="fas fa-burn fa-2x" style="color: #e1890e;"></i>
+              <div class="ta">
+            <span>400</span>
+            <p>calories</p>
+        </div>
+      </div>
+        <div class="ive">
+          <i class="fas fa-utensils fa-2x" style="color: #f29e0d;"></i>
+        <div class="I">
+        <p>NutriScore @</p>
+        <span>92</span>
+        </div>
+      </div>
+      <div class="jup">
+        <i class="fas fa-star fa-2x" style="color: #e68c0f;"></i>
+        <div class="jupe">
+        <span>4.8</span>
+        <p>rating (441)</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+    <h1>WORKS with any diet</h1>
+    <div class="R">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Vegeterian</p>
+    </div>
+    </div>
+    <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Vegan</p>
+    </div>
+    </div>
+    <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Pescatarian</p>
+    </div>
+    </div> <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Gluten-free</p>
+    </div>
+    </div> <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Lactose-free</p>
+    </div>
+    </div> <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Keto</p>
+    </div>
+    </div> <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Paleo</p>
+    </div>
+  </div>
+    <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+      <p>Low FODMAP</p> 
+    </div>
+    </div> <div class="E">
+      <i class="fas fa-check fa-1x" style="color: #f24a02;"></i>
+      <div class="ca">
+        <p>Kid-friendly</p>
+    </div>
+  </div>
 </div>
-<h4>Japanese Gyozas</h4>
- 
-  
+<div class="Y">
+  <h6 class="link">Seeallrecipes</h6>
+</div>
+</div>
+<section class="contenair">
+<div class="leftside">
+<h5 class="V">TESTIMONIALS</h5>
+<h1 class="P">Once you try it, you can't go <br> back</h1>
+<div class="H">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <img class="s" src="dave.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Inexpensive, healthy and great- <br> tasting meals, without even <br> having to order manually! It feels <br> truly magical.</p>
+     <h6>— Dave Bryson</h6>
+     </div>
+  </div>
+  <div class="col">
+      <img  class="s" src="dave2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">The AI algorithm is crazy good, it <br> chooses the right meals for me <br> every time. It's amazing not to <br> worry about food anymore!</p>
+        <h6>— Ben Hadley</h6>
+    </div>
+  </div>
+</div>
+</div>
+<div class="H">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <img class="s" src="dave3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Inexpensive, healthy and great- <br> tasting meals, without even <br> having to order manually! It feels <br> truly magical.</p>
+       <h6>— Steve Miller</h6>
+       </div>
+    </div>
+    <div class="col">
+        <img  class="s" src="dave.4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">The AI algorithm is crazy good, it <br> chooses the right meals for me <br> every time. It's amazing not to <br> worry about food anymore!</p>
+          <h6>— Hannah Smith</h6>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="rightside">
+  <div class="section-C">
+  <img class="x" src="gallery-1.jpg">
+  <img class="x" src="gallery-1.jpg">
+  <img class="x" src="gallery-1.jpg">
+  </div>
+  <div class="section-B">
+    <img class="x" src="gallery-4.jpg">
+    <img class="x" src="gallery-4.jpg">
+    <img class="x" src="gallery-4.jpg">
+    </div>
+    <div class="section-A">
+      <img class="x" src="gallery-12.jpg">
+      <img class="x" src="gallery-12.jpg">
+      <img class="x" src="gallery-12.jpg">
+      </div>
+      <div class="section-D">
+        <img class="x" src="gallery-9.jpg">
+        <img class="x" src="gallery-9.jpg">
+        <img class="x" src="gallery-9.jpg"">
+        </div>
+  </div>
+</section>
   
   
   

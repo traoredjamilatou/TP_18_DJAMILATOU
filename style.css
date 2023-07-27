@@ -19,7 +19,7 @@ body {
     font-family: sans-serif;
 }
 header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 8vh;
     top: 0;
@@ -238,28 +238,122 @@ h5 {
 .fati img{
     width: 450px;
 }
-.fati {
-    display: flex;
-    /* width: 250px;
-    height: 250px; */
-    /* padding-left: 200px;   */
-    margin-top: 70px; 
-    justify-content: space-between;
+ .fati { 
+     display: flex; 
+   margin-top: 70px; 
+     justify-content: space-between;
     padding-left: 100px;
     }
-.ba button{
+ /* contenaine chadi fin jupe*/
+ .card h-50{
+     width: 50px;
+     height: 50px;
+ }
+.card-body span{
     background-color: limegreen;
     color: black;
    
 }
-h4{
-    margin-top: 20px; 
-    padding-left: 40px;
+.fas{
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
+} 
+.ta {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 20px;
 
 }
+.ive{
+    display: flex;
+}
+
+.I {
+    display: flex;
+    margin-top: 13px; 
+    padding-left: 20px;
+} 
+.jup {
+    display: flex;
+}
+
+.jupe {
+    display: flex;
+    margin-top: 13px; 
+    padding-left: 20px;
+} 
+.R {
+    display: flex;
+    margin-top: 20px; 
+     padding-left: 15px;
+} 
+.ca {
+    display: flex; 
+}
+.E {
+    display: flex;
+    margin-top: 5px; 
+     padding-left: 15px;
+}
+.Y h6 {
+    color:chocolate ;
+    align-items: center;
+    padding-left: 700px;
+    margin-top: 30px; 
+}
+.contenair{
+    background-color: rgb(177, 129, 67);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.contenair h5 {
+    color: chocolate;
+    margin-top: 70px; 
+    padding-left: 70px;
+}
+.contenair h1 {
+    margin-top: 20px; 
+    padding-left: 70px;
+}
+.S { 
+    height: 75px;
+    width: 75px;
+    border-radius: 76%;
+     
+}
+.H {
+    padding-left: 70px;
+    margin-top: 20px;
+    justify-content: space-around; 
+}
+.x{
+    height: 240px;
+    width: 240px;
+    padding-left: 15px;
+}
+.section-A{
+    display: flex;
+}
+.section-B{
+    display: flex;
+}
+.section-C{
+    display: flex;
+}
+.section-D{
+    display: flex;
+}
+.rightside{
+    padding-top: 220px;
+    
+}
+
+
 
 /*responsive*/
-@media all and (max-width: 991px) {
+@media all and (max-width: 941px) {
     header {
         background: transparent;
     }
@@ -269,6 +363,7 @@ h4{
         cursor: pointer;
         position: relative;
         z-index: 20;
+        color: black;
     }
     .logo {
         position: relative;
