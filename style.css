@@ -24,9 +24,7 @@ header {
     height: 8vh;
     top: 0;
     left: 0;
-   background: black; 
-  /* background:blanchedalmond;*/
-    color: aliceblue;
+   color: aliceblue;
     padding: 0 2rem;
 }
 nav {
@@ -53,30 +51,27 @@ nav img {
     width: 550px
 }
 .menu li a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;
 }
 .menu button {
     background-color: orangered;
 }
 .span{
-    height: 600px;
+    height: 100%;
     background-color:blanchedalmond; 
     justify-content: space-between;
    display: flex;
    padding-left: 90px;
 }
-.span h1{
-    /* margin-top: 40px; */
-    
-}
+
 .T {
     font-size: 3rem;
     margin-top: 70px;
 }
 .F {
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .btn {
     border: 0;
@@ -87,7 +82,7 @@ nav img {
 }
 /*section span*/
 .steps {
-    margin-top: 70px;  
+    margin-top: 45px;  
   }
   .vert{
     background-color: orangered;
@@ -117,19 +112,25 @@ nav img {
 }
 .fan span {
     color: chocolate;
+   
 }
 .B {
     display: flex;
     height: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    opacity: 30%;
+    filter: 50px;
 }
 .Z {
     text-align: center;
     margin-top: 20px;
 }
 .Z h3 {
-    margin-top: 40px;
+    margin-top: 70px;
+    padding-bottom: 50px;
 }
 .Z h1 {
     font-size: 3rem; 
@@ -160,7 +161,7 @@ h5 {
     }
 .fant {
      /* padding-left: 290px; */
-    margin-top: 70px;  
+    /* margin-top: 30px;   */
     font-size: 40px;
 }
 .bleur {
@@ -303,12 +304,12 @@ h5 {
     margin-top: 30px; 
 }
 
-.contenair h5 {
+.contenaire h5 {
 color: chocolate;
    margin-top: 70px; 
    padding-left: 70px;
 }
-.contenair h1 {
+.contenaire h1 {
    margin-top: 20px; 
       padding-left: 70px; 
 }
@@ -366,7 +367,7 @@ color: chocolate;
 
 
 
-.contenair{
+.contenaire{
     background-color: rgb(203, 198, 191);
     display: flex;
     justify-content: space-between;
@@ -412,8 +413,9 @@ color: chocolate;
   
 .LU{
     /* margin-right: 400px; */
-    border: 2px solid brown;
+    border: 2px solid antiquewhite;
     padding: 40px;
+    background-color: rgb(248, 247, 244);
 }
 .URS{
     /*margin-right: 400px; */
@@ -435,7 +437,7 @@ color: chocolate;
     border: none;
  }
  .UR{
-     border: 2px solid brown;
+     border: 2px solid antiquewhite;
      padding: 40px;
      background-color: antiquewhite;
  }
@@ -453,14 +455,40 @@ color: chocolate;
 .P h1{
     margin-top: 50px;
 }
-
+.link h6{
+    text-align: center;
+    margin-top: 100px;
+}
+.lin {
+    /* margin-top: 50px; */
+    padding: 120px;
+   display: flex;
+   justify-content: space-around;
+}
+.li img{
+    height: 40px;
+    width: 40px;
+}
+.le img{
+    height: 40px;
+    width: 40px;
+}
+.lo img{
+    height: 40px;
+    width: 40px;
+}
+.lr img{
+    height: 40px;
+    width: 40px;
+}
 
 
 /*responsive*/
-@media all and (max-width: 941px) {
+@media all and (max-width: 300px) {
     header {
         background: transparent;
     }
+
     .toggle {
         display: block;
         font-size: 2rem;
@@ -511,17 +539,369 @@ color: chocolate;
     
     .open .menu {
         transform: translateX(0);
+} 
 }
+    
+/* responsive de 300 */
+/* responsive de 300 */
+/* responsive de 300 */
+
+@media all and (max-width: 300px){
+    section{
+        
+       
 }
-/*header{
-    background-color:blanchedalmond;
-    padding: 0.1em;
+    .span{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .content h1{
+        font-size: 90px;
+    }
+    .content p{
+        font-size: 55px;
+    }
+    .span span{
+        font-size: 50px;
+    }
+    .Z{
+        width: 100%;
+        font-size: 50px;
+    }
+    .B{
+        width: 100%;
+        flex-direction: column;
+        /* flex-flow: wrap; */
+        height: 100%;
+    }
+    .B img{
+        padding: 10px;
+    }
+    section h5{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+    section .k{
+        margin-bottom: 50px;
+        
+    }
+    .djami{
+        width: 100%;
+    flex-direction: row;
+    flex-flow: wrap;
+    
+    }
+    .djami .D p{
+        font-size: 55px;
+        padding: 45px;
+    }
+    .djami .D span{
+        font-size: 205px;
+        padding: 45px;
+    }
+    .djami .D h1{
+        font-size: 85px;
+        padding: 45px;
+    }
+    .G{
+        width: 100%;
+        flex-direction: row;
+        flex-flow: wrap;
+        margin-top: 200px;
+    }
+    .G .W span{
+        font-size: 205px;
+        padding: 45px;
+    }
+    .G .W h1{
+        font-size: 85px;
+        padding: 45px;
+    }
+    .G .W p{
+        font-size: 55px;
+        padding: 45px;
+    }
+    .faridat{
+        width: 100%;
+        flex-direction: row;
+        flex-flow: wrap;
+        margin-top: 70px;
+    }
+    .faridat .D span{
+        font-size: 205px;
+        padding: 45px;
+    }
+    .faridat .D h1{
+        font-size: 85px;
+        padding: 45px;
+    }
+    .faridat .D p{
+        font-size: 55px;
+        padding: 45px;
+    }
+    .contenaire-1 h6{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        margin-bottom: 70px; 
+        margin-top: 70px;
+    }
+    .chadia{
+        margin-top: 50px;
+        width: 100%;
+   }
+    .contenair .row{
+       
+        padding: 70px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .contenair .row .container-2{
+        margin-bottom: 100px;
+    }
+    .contenair .row .container-2 .card-body span{
+        font-size: 50px;
+        margin-left: 70px;
+        
+    }
+    .contenair .row .container-2 .card-body p{
+        font-size: 70px;
+    }
+    .contenair .row .container-2 .fas i{
+        font-size: 70px;
+        margin-left: 100px;
+    }
+    .contenair .row .container-2 .fas span{
+        font-size: 50px;
+    }
+    .contenair .row .container-2 .fas p{
+        font-size: 50px;
+    }
+    .contenair .row .container-2 .ive i{
+        font-size: 70px;
+        margin-left: 100px;
+    }
+    .contenair .row .container-2 .ive span{
+        font-size: 50px;
+    }
+    .contenair .row .container-2 .ive p{
+        font-size: 50px;
+    }
+    .contenair .row .container-2 .jup i{
+        font-size: 70px;
+        margin-left: 100px;
+    }
+    .contenair .row .container-2 .jup span{
+        font-size: 50px;
+    }
+    .contenair .row .container-2 .jup p{
+        font-size: 50px;
+    }
+    .contenair .row img{
+        height: 200%;
+        width: 100%;
+    }
+    .contenair .row .col{
+        margin-bottom: 100px;
+    }
+    .contenair .row .col .card-body span{
+        font-size: 50px;
+        margin-left: 70px;
+        
+    }
+    .contenair .row .col .card-body p{
+        font-size: 70px;
+        margin-left: 40px;
+    }
+    .contenair .row .col .fas i{
+        font-size: 75px;
+        margin-left: 100px;
+    }
+    .contenair .row .col .fas p{
+        font-size: 50px;
+    }
+    .contenair .row .col .fas span{
+        font-size: 50px;
+    }
+    .contenair .row .col .ive i{
+        font-size: 75px;
+        margin-left: 100px;
+    }
+    .contenair .row .col .ive p{
+        font-size: 50px;
+    }
+    .contenair .row .col .ive span{
+        font-size: 50px;
+    }
+    .contenair .row .col .jup i{
+        font-size: 75px;
+        margin-left: 100px;
+    }
+    .contenair .row .col .jup p{
+        font-size: 50px;
+    }
+    .contenair .row .col .jup span{
+        font-size: 50px;
+    }
+    .contenair .row .container-3{
+        background-color: aqua;
+        margin-bottom: 40px;
+    }
+    .contenair .row .container-3 h1{
+        font-size: 80px;
+    }
+    .contenair .row .container-3 .R i{
+        font-size: 75px;
+        margin-left: 100px;
+    }
+    .contenair .row .container-3 .R p{
+        font-size: 50px;
+    }
+    .contenair .row .container-3 .E i{
+        font-size: 75px;
+        margin-left: 100px;
+    }
+    .contenair .row .container-3 .E p{
+        font-size: 50px;
+    }
+.LN{ 
+     width: 100%;
+} 
+.NL{
+ font-size: 60px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0px;
+.lmk{
+   width: 100%;
+    flex-direction: column;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 100px;
+    
 }
-nav button{
-    background-color: orangered;
-}*/
+.lmk img{
+    width: 200px;
+    height: 150px;
+}
+.JJ{
+}
+.contenaire{
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+}
+.img{
+    flex-direction: row;
+    flex-flow: wrap;
+    
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+.P h5{
+    margin-top: 50px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.P h2{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.kk{
+    width: 100%;
+    flex-direction: column;
+    /* flex-flow: wrap; */
+    /* padding: 50px; */
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 100px;
+}
+.kk .LU{
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+.LU h4{
+    font-size: 80px; 
+}
+.LU h1{
+    font-size: 70px; 
+}
+.kk .UR{
+    width: 100%;
+    font-size: 60px;
+}
+.UR h4{
+    font-size: 80px; 
+}
+.UR h1{
+    font-size: 70px; 
+}
+.link{
+    width: 100%;
+    
+}
+
+.link h6{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.lin{
+    width: 100%; 
+     font-size: 45px;
+     text-align: center;
+     margin-bottom: 100px;
+     flex-direction: column;
+     /* padding-left: 200%; */
+ }
+.lin img{
+    width: 200px;
+    height: 150px;
+}
+.li h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.le h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.lo h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.lr h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.fan {
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.fa img {
+    width: 150px;
+}
+
+}
+
+/* responsive de 300 */
+/* responsive de 300 */
+/* responsive de 300 */
