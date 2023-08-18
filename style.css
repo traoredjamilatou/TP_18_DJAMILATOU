@@ -24,8 +24,9 @@ header {
     height: 8vh;
     top: 0;
     left: 0;
-   color: aliceblue;
+    color: aliceblue;
     padding: 0 2rem;
+    background-color: antiquewhite;
 }
 nav {
     width: 100%;
@@ -303,6 +304,73 @@ h5 {
     padding-left: 700px;
     margin-top: 30px; 
 }
+.AD{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+    padding: 75px;
+}
+.contenair img{
+    width: 70%;
+    height: 50%;
+}
+.contenaire-1 img{
+    width: 70%;
+    height: 50%;
+}
+.EF span{
+    /* background-color:green; */
+    color: black;
+    padding-left: 130px;
+    font-size: 1.50rem;
+}
+.EF p{
+    /* background-color:green; */
+    color: black;
+    padding-left: 50px;
+    font-size: 2.25rem;
+    margin-top: 20px;
+}
+.V{
+    display: flex;
+    margin-bottom: 25px;
+}
+.ive{
+    display: flex;
+    margin-bottom: 20px;
+}
+.EVA span{
+    /* background-color:green; */
+    color: black;
+    font-size: 1.50rem;
+}
+.vegan{
+        padding-left: 50px;
+        margin-top: 20px;
+
+}
+.paleo{
+        padding-left: 100px;
+        margin-top: 20px;
+
+}
+.EVA p{
+    color: black;
+    font-size: 2.25rem;
+    margin-top: 20px;
+    padding-left: 60px;
+
+}
+.fas{
+    display: flex;
+    margin-bottom: 25px;
+}
+/* .EVA{
+    display: flex;
+    margin-bottom: 20px;
+} */
+
+
 
 .contenaire h5 {
 color: chocolate;
@@ -468,19 +536,112 @@ color: chocolate;
 .li img{
     height: 40px;
     width: 40px;
+    
+}
+.li h1{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+.li p{
+    font-size: 1.50rem;
+    margin-bottom: 20px;
 }
 .le img{
     height: 40px;
     width: 40px;
 }
+
+.le h1{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+.le p{
+    font-size: 1.50rem;
+    margin-bottom: 20px;
+}
 .lo img{
     height: 40px;
     width: 40px;
+}
+.lo h1{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+.lo p{
+    font-size: 1.50rem;
+    margin-bottom: 20px;
 }
 .lr img{
     height: 40px;
     width: 40px;
 }
+.lr h1{
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+.lr p{
+    font-size: 1.50rem;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    padding: 70px;
+   justify-content: space-evenly;
+    
+}
+.img-footer img{
+    height: 2.2rem;
+margin-bottom: 50px;
+}
+
+
+.social{
+    margin-bottom: 25px;
+}
+.social i{
+    display: inline-flex;
+   align-items: center; 
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   color: var(--main-color);
+   border-radius: 50%;
+   backdrop-filter: brightness(88%);
+   font-size: 20px;
+   margin-right: 17px;
+   box-shadow: 0 0 20px transparent;
+   cursor: pointer;
+   transition: all.50s ease;
+}
+.social i:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--main-color);
+}
+.RA h6{
+font-size: 2rem;
+margin-bottom: 45px;
+}
+.rachi h6{
+    font-size: 2rem;
+}
+.rachid h6{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }  
+.RACHI h6{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+
+
+
+
 
 
 /*responsive*/
@@ -823,8 +984,6 @@ color: chocolate;
 .kk{
     width: 100%;
     flex-direction: column;
-    /* flex-flow: wrap; */
-    /* padding: 50px; */
     margin-bottom: 20px;
     margin: 0;
     padding: 100px;

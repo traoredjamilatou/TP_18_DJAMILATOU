@@ -1,0 +1,80 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+/* .hero {
+    
+    background: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+} */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+   color: aliceblue;
+    padding: 0 2rem;
+}
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    right: 0;
+    left: 0;
+    background: white;
+    box-decoration-break: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+nav img {
+    height: 2rem;
+    width: 150px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+.logo {
+    font-size: 2rem;
+}
+.toggle {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 550px
+}
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+.menu button {
+    background-color: orangered;
+}
+.span{
+    height: 100%;
+    background-color:blanchedalmond; 
+    justify-content: space-between;
+   display: flex;
+   padding-left: 90px;
+}
